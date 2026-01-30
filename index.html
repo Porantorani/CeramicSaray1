@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>سرامیک سرای | Ceramic Saray</title>
+    <meta name="description"
+        content="زیباترین و باکیفیت‌ترین محصولات سرامیکی و سنگ‌های تزیینی برای خانه و محل کار شما.">
+
+    <!-- Fonts: Vazirmatn for Persian, Playfair Display for English/Numbers -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <h1>سرامیک <span class="gold-text">سرای</span></h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#hero" class="active">خانه</a></li>
+                <li><a href="#products">محصولات</a></li>
+                <li><a href="#about">درباره ما</a></li>
+                <li><a href="#contact">تماس با ما</a></li>
+            </ul>
+            <div class="nav-toggle" id="navToggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="hero" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <h2 class="fade-in-up">زیبایی و اصالت در معماری</h2>
+            <h1 class="fade-in-up delay-1">تولیدکننده انواع <span class="gold-text">آب‌نما، شومینه و روشویی سنگی</span>
+            </h1>
+            <p class="fade-in-up delay-2">مجموعه‌ای بی‌نظیر از تزیینات سنگی لوکس برای نمای داخلی و خارجی ساختمان، باغ و
+                ویلای شما.</p>
+            <div class="hero-btns fade-in-up delay-3">
+                <a href="#products" class="btn btn-primary">مشاهده محصولات</a>
+                <a href="tel:09123456789" class="btn btn-outline">ثبت سفارش</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container features-grid">
+            <div class="feature-card">
+                <i class="fas fa-gem"></i>
+                <h3>کیفیت ممتاز</h3>
+                <p>استفاده از بهترین متریال‌های طبیعی و مقاوم.</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-paint-brush"></i>
+                <h3>طراحی هنری</h3>
+                <p>طرح‌های منحصر به فرد و دست‌ساز توسط اساتید.</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-shipping-fast"></i>
+                <h3>ارسال سریع</h3>
+                <p>بسته‌بندی ایمن و ارسال به سراسر کشور.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products section-padding">
+        <div class="container">
+            <div class="section-header">
+                <span class="subtitle">گالری ما</span>
+                <h2>محصولات <span class="gold-text">برگزیده</span></h2>
+                <p>انتخابی از بهترین‌های سرامیک و سنگ</p>
+            </div>
+
+            <!-- Filter Buttons -->
+            <div class="filter-btns">
+                <button class="filter-btn active" data-filter="all">همه</button>
+                <button class="filter-btn" data-filter="fountain">آب‌نما</button>
+                <button class="filter-btn" data-filter="fireplace">شومینه</button>
+                <button class="filter-btn" data-filter="washbasin">روشویی</button>
+                <button class="filter-btn" data-filter="decor">تزیینات</button>
+            </div>
+
+            <div class="product-grid">
+                <!-- Product 1 -->
+                <div class="product-card" data-category="fountain">
+                    <div class="product-img">
+                        <div class="placeholder-img"
+                            style="background-color: #d4a373; background-image: url('https://images.unsplash.com/photo-1513694203232-719a280e022f?q=80&w=2069&auto=format&fit=crop');">
+                        </div>
+                        <div class="overlay">
+                            <button class="btn-icon"><i class="fas fa-search"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>آب‌نمای سنگی طبقاتی</h3>
+                        <span class="price">۱۵,۰۰۰,۰۰۰ تومان</span>
+                        <a href="tel:09123456789" class="btn btn-sm btn-primary mt-2">ثبت سفارش</a>
+                    </div>
+                </div>
+                <!-- Product 2 -->
+                <div class="product-card" data-category="fireplace">
+                    <div class="product-img">
+                        <div class="placeholder-img"
+                            style="background-color: #ccd5ae; background-image: url('https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?q=80&w=2070&auto=format&fit=crop');">
+                        </div>
+                        <div class="overlay">
+                            <button class="btn-icon"><i class="fas fa-search"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>شومینه سنگی کلاسیک</h3>
+                        <span class="price">۲۵,۰۰۰,۰۰۰ تومان</span>
+                        <a href="tel:09123456789" class="btn btn-sm btn-primary mt-2">ثبت سفارش</a>
+                    </div>
+                </div>
+                <!-- Product 3 -->
+                <div class="product-card" data-category="washbasin">
+                    <div class="product-img">
+                        <div class="placeholder-img"
+                            style="background-color: #e9edc9; background-image: url('https://images.unsplash.com/photo-1584622050111-993a426fbf0a?q=80&w=2070&auto=format&fit=crop');">
+                        </div>
+                        <div class="overlay">
+                            <button class="btn-icon"><i class="fas fa-search"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>روشویی سنگی رودخانه‌ای</h3>
+                        <span class="price">۸,۵۰۰,۰۰۰ تومان</span>
+                        <a href="tel:09123456789" class="btn btn-sm btn-primary mt-2">ثبت سفارش</a>
+                    </div>
+                </div>
+                <!-- Product 4 -->
+                <div class="product-card" data-category="decor">
+                    <div class="product-img">
+                        <div class="placeholder-img"
+                            style="background-color: #faedcd; background-image: url('https://images.unsplash.com/photo-1605218427368-35b8168f4851?q=80&w=2087&auto=format&fit=crop');">
+                        </div>
+                        <div class="overlay">
+                            <button class="btn-icon"><i class="fas fa-search"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>نیمکت و میز سنگی باغی</h3>
+                        <span class="price">۱۲,۰۰۰,۰۰۰ تومان</span>
+                        <a href="tel:09123456789" class="btn btn-sm btn-primary mt-2">ثبت سفارش</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section-padding">
+        <div class="container about-container">
+            <div class="about-img">
+                <div class="placeholder-img" style="height: 400px; background-color: #8d99ae;"></div>
+            </div>
+            <div class="about-text">
+                <span class="subtitle">داستان ما</span>
+                <h2>تلفیق <span class="gold-text">سنت</span> و مدرنیته</h2>
+                <p>سرامیک سرای با بیش از ۲۰ سال تجربه در زمینه تولید و عرضه محصولات سرامیکی و سنگی، تلاش می‌کند تا
+                    زیبایی و اصالت را به خانه‌های شما بیاورد. ما با بهره‌گیری از هنرمندان چیره دست، محصولاتی خلق می‌کنیم
+                    که نه تنها یک کالا، بلکه یک اثر هنری هستند.</p>
+                <ul class="about-list">
+                    <li><i class="fas fa-check-circle"></i> طراحی اختصاصی</li>
+                    <li><i class="fas fa-check-circle"></i> ضمانت اصالت کالا</li>
+                    <li><i class="fas fa-check-circle"></i> پشتیبانی ۲۴ ساعته</li>
+                </ul>
+                <a href="#contact" class="btn btn-primary">تماس با ما</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section-padding">
+        <div class="container">
+            <div class="section-header">
+                <span class="subtitle">ارتباط با ما</span>
+                <h2>ما را <span class="gold-text">پیدا کنید</span></h2>
+            </div>
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>آدرس</h4>
+                            <p>تهران، خیابان ولیعصر، بالاتر از پارک ساعی، پلاک ۱۱۰</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>تلفن</h4>
+                            <p>۰۲۱-۸۸۸۸۸۸۸۸</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>ایمیل</h4>
+                            <p>info@ceramicsaray.com</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-telegram"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="نام و نام خانوادگی" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" placeholder="شماره تماس" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea rows="5" placeholder="پیام شما..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">ارسال پیام</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>سرامیک <span class="gold-text">سرای</span></h2>
+                    <p>زیبایی خانه شما، تخصص ماست.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>دسترسی سریع</h3>
+                    <ul>
+                        <li><a href="#hero">خانه</a></li>
+                        <li><a href="#products">محصولات</a></li>
+                        <li><a href="#about">درباره ما</a></li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                    <h3>خبرنامه</h3>
+                    <p>برای اطلاع از جدیدترین محصولات عضو شوید.</p>
+                    <form>
+                        <input type="email" placeholder="ایمیل خود را وارد کنید">
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; ۲۰۲۳ سرامیک سرای. تمامی حقوق محفوظ است.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
